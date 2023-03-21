@@ -51,7 +51,7 @@ curl -X POST -H "Content-type: application/json" -d '{"ID": "11","origen": "Bogo
 Para correr estos proyectos se debe dirigir a cada una de las carpetas correspondientes siguiendo los siguientes pasos:
 
 1. Correr el Server
-   Dirigirse a la carpeta de myServer y ejecutar lso siguientes comandos:
+   Dirigirse a la carpeta de myServer y ejecutar los siguientes comandos:
 ```bash
 mvn clean install
 mvn spring-boot:run
