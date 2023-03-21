@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server" />
+        <module name="divisor" />
+        <module name="myserver" />
+        <module name="substraction" />
+        <module name="multiply" />
+        <module name="calculadora" />
+        <module name="addition" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="addition" target="1.8" />
+      <module name="calculadora" target="1.8" />
+      <module name="divisor" target="1.8" />
+      <module name="multiply" target="1.8" />
+      <module name="myserver" target="1.8" />
+      <module name="server" target="1.7" />
+      <module name="substraction" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="addition" options="-parameters" />
+      <module name="calculadora" options="-parameters" />
+      <module name="divisor" options="-parameters" />
+      <module name="multiply" options="-parameters" />
+      <module name="myserver" options="-parameters" />
+      <module name="substraction" options="-parameters" />
+    </option>
+  </component>
+</project>
